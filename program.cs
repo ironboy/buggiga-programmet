@@ -5,7 +5,7 @@ static double Add(double a, double b)
 
 static double Subtract(double a, double b)
 {
-    return a + b;
+    return a - b;
 }
 
 static int IntConverter(string a)

@@ -4,6 +4,9 @@
 2. Följande visas direkt: warning CS8604: Possible null reference argument for parameter 'a' in 'int IntConverter(string a)'.
 3. Notera: Detta händer inte vid varje run utan vid första körning och efter programändring, för att återskapa du lägga in/ändra kommentar i program.cs
 
+#### Åtgärd
+La till en nullforgiving operator på Console.ReadLine (rad 21);
+
 ### Fel: Input av icke-heltal ger programkörningsfel
 1. Starta programmet
 2. Direkt visas en inmatning med "Skriv in ett heltal"
